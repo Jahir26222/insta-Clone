@@ -75,7 +75,7 @@ async function loginController(req, res) {
 
     if (!isPasswordValid) {
         return res.status(401).json({
-            message: "Password is invalid"
+            message: "invalid Password "
         })
     }
 
